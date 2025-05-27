@@ -6,23 +6,38 @@
     <title>html basics</title>
   </head>
   <body>
-    <h1>My Tweets</h1>
-    <blockquote class="twitter-tweet">
-      <p lang="en" dir="ltr">
-        This is an example tweet embedded for demonstration purposes.
-      </p>
-      &mdash; Example User (@ExampleUser)
-      <a href="https://twitter.com/ExampleUser/status/1234567890123456789"
-        >May 27, 2025</a
-      >
-    </blockquote>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="tweets.html">Tweets</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h1>My Tweets</h1>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            This is an example tweet embedded for demonstration purposes.
+          </p>
+          &mdash; Example User (@ExampleUser)
+          <a href="https://twitter.com/ExampleUser/status/1234567890123456789"
+            >May 27, 2025</a
+          >
+        </blockquote>
+      </article>
+
+      <!-- Link back to index.html -->
+      <aside>
+        <p><a href="index.html">Back to Homepage</a></p>
+      </aside>
+    </main>
+    <footer>Made by Me - <a href="" target="_blank">here</a></footer>
     <script
       async
       src="https://platform.twitter.com/widgets.js"
       charset="utf-8"
     ></script>
-
-    <!-- Link back to index.html -->
-    <p><a href="index.html">Back to Homepage</a></p>
   </body>
 </html>
